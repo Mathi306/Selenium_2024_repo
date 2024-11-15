@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browsers" value="chrome"/>
+    <classes>
+      <class name="testScript.Computers">
+        <methods>
+          <include name="Login"/>
+          <include name="ComputersLink"/>
+          <include name="logout"/>
+          <include name="closingBrowsers"/>
+          <include name="reportConfig"/>
+          <include name="reportBackUp"/>
+          <include name="LaunchingBrowser"/>
+        </methods>
+      </class> <!-- testScript.Computers -->
+      <class name="testScript.Books">
+        <methods>
+          <include name="Login"/>
+          <include name="BooksLink"/>
+          <include name="logout"/>
+          <include name="closingBrowsers"/>
+          <include name="reportConfig"/>
+          <include name="reportBackUp"/>
+          <include name="LaunchingBrowser"/>
+        </methods>
+      </class> <!-- testScript.Books -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
