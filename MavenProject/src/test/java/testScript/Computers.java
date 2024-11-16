@@ -23,6 +23,7 @@ public class Computers extends BassClass {
 		hp.getComputersLink().click();
 		Ass.assertEquals(driver.getTitle(), Eutil.getdatafromexcel("Sheet1",1,6), "computers page is Not Displayed");
 		etest.log(Status.PASS, "Computers page is Displayed");
+		Reporter.log("Computers page open", true);
 	}
 
 }

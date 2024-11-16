@@ -23,6 +23,8 @@ public class Books extends BassClass {
 		hp.getBooksLink().click();
 		Ass.assertEquals(driver.getCurrentUrl(), Futil.getPropertyfromproperties("url") ,Eutil.getdatafromexcel("Sheet1",1,7));
 		etest.log(Status.PASS, "Books page is Displayed");
+		Reporter.log("log");
+		Reporter.log("log", true);
 	}
 
 }
