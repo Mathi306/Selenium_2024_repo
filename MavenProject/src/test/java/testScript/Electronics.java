@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import genericUtility.BassClass;
 
 public class Electronics extends BassClass {
-	
+	//Changes in Gitup (test)
 	@Test
 	public void ElectronicsLink()
 	{
